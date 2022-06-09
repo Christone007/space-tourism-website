@@ -21,7 +21,7 @@ body{
   position: absolute;
   top: 55px;
   left: 10%;
-  width: 35%;
+  width: 40%;
   z-index: 1;
   border-style: solid;
   border-width: 0.02em;
@@ -36,7 +36,7 @@ body{
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   position:relative;
-  width: 65%;
+  width: 55%;
   top:30px;
 }
 
@@ -65,6 +65,7 @@ body{
 
 .nav-links a:hover{
   border-bottom: 3px solid white;
+  padding-bottom: 22px;
 }
 
 #logo{
