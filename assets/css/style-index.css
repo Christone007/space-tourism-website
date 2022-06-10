@@ -107,23 +107,28 @@ body{
 }
 
 .header-aside{
-  width:250px;
-  height: 250px;
+  width:12.5rem;
+  height: 12.5rem;
   border-radius: 100%;
   background-color: white;
   position: absolute;
-  bottom: 100px;
-  right: 160px;
+  bottom: 5rem;
+  right: 5rem;
 }
 
 .header-aside p{
   font-family: Garamond, "Bodoni MT", serif;
   font-size: 2rem;
   text-transform: uppercase;
-  position: absolute;
+  /* position: absolute;
   top: 70px;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: center; */
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 
 }
